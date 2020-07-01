@@ -1,6 +1,6 @@
 ## Pixabay Images Search
 
-This is a really small project built to test react states hook in functional components and the interaction with an external api, also adding pagination
+This is a really small project built to test react state management with hooks in functional components and the interaction with an external api, also adding pagination
 
 ### Pre-condition
 
