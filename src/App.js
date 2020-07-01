@@ -34,6 +34,9 @@ function App() {
     if (newPage === 0) return;
 
     setCurrentPage(newPage);
+
+    const jumbotron = document.querySelector(".jumbotron");
+    jumbotron.scrollIntoView({ behavior: "smooth" });
   };
 
   const nextPage = (e) => {
@@ -44,6 +47,9 @@ function App() {
     if (newPage > totalpages) return;
 
     setCurrentPage(newPage);
+
+    const jumbotron = document.querySelector(".jumbotron");
+    jumbotron.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
